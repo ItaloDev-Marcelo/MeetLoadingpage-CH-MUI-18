@@ -4,6 +4,8 @@ import HeaderD from './pages/header/Desk/headerDesktop'
 import { Stack } from "@mui/material";
 import Main from './pages/main';
 import Footer from './pages/Footer';
+import './App.css';
+
 function App() {
 
 
