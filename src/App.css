@@ -28,13 +28,33 @@
 
  .grid-container  img
 {
-    
     max-width: 100%;
     width: 80%;
     border-radius: 10px;
 } 
 
 
+footer {
+  position: relative;
+  background: url(./assets/mobile/image-footer.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+
+footer::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 400px;
+  filter: brightness(14);
+  background-color: rgb(93, 175, 167);
+  opacity: .8;
+}
 
 
 @media (min-width: 600px) {
@@ -61,5 +81,40 @@
   {
     max-width: 50%;
   }
+
+  footer {
+    background: url(./assets/tablet/image-footer.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 50vh;
+  }
+
+  footer::after {
+    
+    height: 50vh;
+
+  }
+  
+  
+  
+} 
+
+
+
+
+@media (min-width: 900px) {
+
+  footer {
+    background: url(./assets/desktop/image-footer.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 250px;
+  }
+
+  footer::after {
+    height: 250px;
+  }
+  
+  
   
 } 

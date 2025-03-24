@@ -17,7 +17,13 @@ export default function HeaderMT() {
          <HeroText />
          </Stack>
          </Stack>
-        
+         <Stack display='flex' textAlign='center' position='relative' top='2em' alignContent='center' alignItems='center' justifyContent='center' >
+         <Stack component='div' className='line' height='100px'  width='1px' backgroundColor=' rgb(199, 204, 199)'>
+                 </Stack>
+                 <Stack component='div' textAlign='center' display='flex' justifyContent='center' className='circle' width='50px' height='50px'  borderRadius='100%' border='1px solid  rgb(199, 204, 199)'>
+                    <strong>01</strong>
+                 </Stack>
+         </Stack>
     </Stack>
   )
 }
