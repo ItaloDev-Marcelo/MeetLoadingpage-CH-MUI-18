@@ -16,7 +16,7 @@ export default function HeaderD() {
              <HeroText />
             <img src={TMRimage} alt='' className='Hero-Img'/>
          </Stack>
-         <Stack display='flex' textAlign='center' position='relative' top='7em' alignContent='center' alignItems='center' justifyContent='center' >
+         <Stack display='flex' textAlign='center' position='relative' top='6em' alignContent='center' alignItems='center' justifyContent='center' >
                   <Stack component='div' className='line' height='100px'  width='1px' backgroundColor=' rgb(199, 204, 199)'>
                           </Stack>
                           <Stack component='div' textAlign='center' display='flex' justifyContent='center' className='circle' width='50px' height='50px'  borderRadius='100%' border='1px solid  rgb(199, 204, 199)'>
